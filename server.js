@@ -53,7 +53,7 @@ app.get('/books/:id', async (req, res) => {
 });
 
 // Update a book
-app.patch('/books/:id', async (req, res) => {
+app.put('/books/:id', async (req, res) => {
   try {
     const book = await Book.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true });
     if (!book) {
