@@ -12,7 +12,7 @@ This is a Node.js backend application for managing a collection of books using a
 
 ## Requirements
 
-- Node.js (>=14.x)
+- Node.js
 - MongoDB
 
 ## Installation
@@ -20,19 +20,20 @@ This is a Node.js backend application for managing a collection of books using a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/backend-assignment.git
+   git clone https://github.com/JayaramHarry/Credence_Backend_assignment
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd backend-assignment
+   cd Credence_Backend-assignment
    ```
 
 3. Install dependencies:
 
    ```bash
    npm install
+   npm init -y
    ```
 
 4. Set up MongoDB:
@@ -42,7 +43,7 @@ This is a Node.js backend application for managing a collection of books using a
 5. Start the server:
 
    ```bash
-   npm start
+   node server.js
    ```
 
 6. The server should now be running locally on port 3000 by default.
